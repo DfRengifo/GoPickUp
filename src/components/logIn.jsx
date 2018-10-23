@@ -8,7 +8,7 @@ class LogIn extends Component {
     return (
       <React.Fragment>
         <center>
-          <table style={{ width: "100%", background: "Gold" }}>
+          <table style={{ width: "100%", background: "#c0e4f9" }}>
             <tbody>
               <tr>
                 <th>

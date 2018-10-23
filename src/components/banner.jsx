@@ -1,22 +1,37 @@
 import React, { Component } from "react";
+import { Navbar,NavDropdown,MenuItem,NavItem, Nav } from 'react-bootstrap';
+
 
 class Banner extends Component {
-  estilo = {
-    backgroundColor: "Maroon"
+  estilo  = {
+    backgroundColor: "RED"
+
   };
 
   render() {
     return (
-      <div className="container-fluid" style={this.estilo}>
-        <center>
-          <br />
-          <img
-            src="https://scontent.fbog3-1.fna.fbcdn.net/v/t1.15752-9/44308849_2275780429118551_2901403562686808064_n.jpg?_nc_cat=110&oh=4ab070fd06ed9b3c0186a68715ff962c&oe=5C3E0AC6"
-            alt="GoPickUpLogo"
-          />
-          <hr />
-        </center>
-      </div>
+      <Navbar>
+        <Navbar.Header>
+          <Navbar.Brand>
+            <a href="#home">React-Bootstrap</a>
+          </Navbar.Brand>
+        </Navbar.Header>
+        <Nav>
+          <NavItem eventKey={1} href="#">
+            Link
+    </NavItem>
+          <NavItem eventKey={2} href="#">
+            Link
+    </NavItem>
+          <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+            <MenuItem eventKey={3.1}>Action</MenuItem>
+            <MenuItem eventKey={3.2}>Another action</MenuItem>
+            <MenuItem eventKey={3.3}>Something else here</MenuItem>
+            <MenuItem divider />
+            <MenuItem eventKey={3.4}>Separated link</MenuItem>
+          </NavDropdown>
+        </Nav>
+      </Navbar>
     );
   }
 }

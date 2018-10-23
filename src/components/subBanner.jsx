@@ -20,7 +20,7 @@ class SubBanner extends Component {
   render() {
     return (
       <React.Fragment>
-        <table style={{ width: "100%", background: "Maroon" }}>
+        <table style={{ width: "100%", background: "#066196" }}>
           <tbody>
             <tr>
               <th>

@@ -10,7 +10,7 @@ class list extends Component {
       {
         demanda: 0,
         valor: 100,
-        descripcion: "la saludable y recomendable por todos ls condenables",
+        descripcion: "la saludable y recomendable por todos los comensales",
         cantidad: 5,
         id: 10001,
         imagenURL:

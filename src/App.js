@@ -11,11 +11,12 @@ import Menu from "./components/menu";
 import Pedido from "./components/pedido";
 import Bienvenida from "./components/bienvenida";
 import { BrowserRouter, Route } from "react-router-dom";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App" style={{ background: "Gold" }}>
+      <div className="App" style={{ background: "#c0e4f9" }}>
         <Banner />
         <BrowserRouter>
           <div>

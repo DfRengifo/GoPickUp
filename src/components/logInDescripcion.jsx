@@ -7,7 +7,7 @@ class LogInDescripcion extends Component {
       <ul>
         <li>
           <p>
-            Gopick up es un revolucionario
+            No hagas filas, No pierdas el tiempo
             <br />
             sistema de boleo. No se como hacer
             <br />
