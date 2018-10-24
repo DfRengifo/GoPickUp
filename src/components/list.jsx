@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Producto from "./producto";
 
 class list extends Component {
+  style = {
+    width: "390px"
+  }
+
   state = {
     costoTotal: 0,
     cantidadTotal: 0,
@@ -10,68 +14,57 @@ class list extends Component {
       {
         demanda: 0,
         valor: 100,
-        descripcion: "la saludable y recomendable por todos los comensales",
+        descripcion: "Alimento en forma de la de bocadillo hecho a base de carne picada aglutinada en forma de filete, cocinado a la parrilla ",
         cantidad: 5,
         id: 10001,
         imagenURL:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPuOGdLAwZhN-oRG7SpGYirCBAuT1Vo0VMtK6PHq0Rhr3Q-IdPLQ"
+          "https://static7.depositphotos.com/1011415/743/v/450/depositphotos_7438540-stock-illustration-cheeseburger.jpg"
       },
       {
         demanda: 0,
         valor: 200,
-        descripcion: "perro no tengo ni idea que esta esta vuelta...",
+        descripcion: "Deliciosa salchicha bañada en salsas con papas acompañado del pan de la casa",
         cantidad: 7,
         id: 10002,
         imagenURL:
-          "https://cdnblog.mexicodestinos.com/blog/wp-content/uploads/2012/06/comida-mexicana.jpg"
+          "https://previews.123rf.com/images/ylivdesign/ylivdesign1707/ylivdesign170732380/83066391-icono-de-hotdog-ilustraci%C3%B3n-de-dibujos-animados-de-icono-de-vector-de-hot-dog-para-web.jpg"
       },
       {
         demanda: 0,
         valor: 100,
-        descripcion: "creo que eso era un sanduche?",
+        descripcion: "Pechuga de pollo, sobre un exquisito pan, acompañado de condimentos y guarniciones. ",
         cantidad: 2,
         id: 10003,
         imagenURL:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDpG6u6fEnvve1DFYC6raS75SRtZvjbKrG_jqAnccgP7Kc3RF2"
+          "https://www.svgrepo.com/show/21407/sandwich.svg"
       },
       {
         demanda: 0,
         valor: 500,
-        descripcion: "Una vaina ahi de disney ree wtf",
+        descripcion: "Deliciosas tortillas de maiz fritas acompañadas de queso deretido y jalapeños",
         cantidad: 5,
         id: 10004,
         imagenURL:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtGoc9xUq-93dVbTJboxbZtG1bl5jr3Ugyn-bCEoaKsFxBQ9apQ"
+          "https://mbtskoudsalg.com/images/nachos-cartoon-png-7.png"
       },
       {
         demanda: 0,
         valor: 450,
-        descripcion: "Ole Chihiro",
+        descripcion: "Ricos rollos de arroz relleno de pescado en gran variedad traidos desde japon",
         cantidad: 10,
         id: 10005,
         imagenURL:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLM7fHGRBwHhJiZ_7KJTO-IQGxDD64sD01ZV9FbKwwGqYpk8OX3Q"
-      },
-      {
-        demanda: 0,
-        valor: 1000,
-        descripcion: "Hi.",
-        cantidad: 10,
-        id: 10006,
-        imagenURL:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQANGdUO20oMfqaEEkj9Dc-9raik9J0ufA-qQ-ZGJSGE3kqBuAL"
+          "https://s3.envato.com/files/142082240/Sushi_Vector_preview.jpg"
       }
     ]
   };
 
   estiloDHH = {
-    border: "7px solid #db0404",
+    border: "7px solid #639CFF",
     padding: "8px",
     width: "100%",
-    background: "Maroon",
     fontSize: "15",
-    fontWeight: "bold",
-    color: "Gold"
+    fontWeight: "bold"
   };
 
   constructor() {
@@ -103,7 +96,7 @@ class list extends Component {
 
   checkProductos() {
     if (this.state.productos.length === 0)
-      return <h1>¡¡¡NoHayProductos Para Mostrar!!!</h1>;
+      return <h1>¡¡¡No Hay Productos Para Mostrar!!!</h1>;
     return (
       <React.Fragment>
         <table style={this.estiloDHH}>
@@ -112,8 +105,10 @@ class list extends Component {
               <th
                 style={{
                   width: "50%",
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
+
                 }}
               >
                 <center>
@@ -123,8 +118,9 @@ class list extends Component {
               <th
                 style={{
                   width: "50%",
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
                 }}
               >
                 <center>
@@ -139,28 +135,31 @@ class list extends Component {
             <tr>
               <th
                 style={{
-                  width: "125px",
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  width: "390px",
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
                 }}
               >
                 <center>
                   <center>
                     <p
                       style={{
+                        width: "390px",
                         fontSize: "15",
                         fontWeight: "bold"
                       }}
                     >
-                      Imagen
+                    
                     </p>
                   </center>
                 </center>
               </th>
               <th
                 style={{
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
                 }}
               >
                 <center>
@@ -177,8 +176,9 @@ class list extends Component {
               <th
                 style={{
                   width: "100px",
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
                 }}
               >
                 <center>
@@ -195,8 +195,9 @@ class list extends Component {
               <th
                 style={{
                   width: "100px",
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
                 }}
               >
                 <center>
@@ -213,8 +214,9 @@ class list extends Component {
               <th
                 style={{
                   width: "100px",
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
                 }}
               >
                 <center>
@@ -231,8 +233,9 @@ class list extends Component {
               <th
                 style={{
                   width: "125px",
-                  border: "3px solid #db0404",
-                  padding: "10px"
+                  border: "3px solid #639CFF",
+                  padding: "10px",
+                  background: "#97C5FF"
                 }}
               >
                 <center>

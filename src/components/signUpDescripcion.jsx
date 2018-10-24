@@ -3,10 +3,9 @@ import React, { Component } from "react";
 class SignUpDescripcion extends Component {
   state = {
     testimonios: [
-      "Juancho: 'Que servicio tan brutal'",
-      "Pepe: 'Mi vida cambio con GoPickUp'",
-      "ElCumpa: 'Parce me dieron el triple'",
-      "Gary: lol"
+      "Diego: 'Que buen servicio'",
+      "Laura: 'Mi vida cambio con GoPickUp'",
+      "Kevin: 'Esto es dinamita pura'"
     ]
   };
   render() {

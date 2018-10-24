@@ -22,8 +22,8 @@ class SignUpForm extends Component {
       <React.Fragment>
         <center>
           <form id="form">
-            <h3 style={{ color: "Red" }}>
-              ¡¡¡No esperes mas para ser parte de GoPickUp!!!
+            <h3 style={{ color: "#0c6aa0" }}>
+              ¡No esperes mas para ser parte de GoPickUp!
             </h3>
             <br />
             <label style={{ fontsize: 20, fontweight: "bold" }}>

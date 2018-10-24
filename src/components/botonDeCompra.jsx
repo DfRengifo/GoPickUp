@@ -14,7 +14,7 @@ class BotonDeCompra extends Component {
       <React.Fragment>
         <center>
           <form action="/action_page.php">
-            <h6 style={{ color: "red", fontWeight: "bolder" }}>
+            <h6 style={{ color: "red", fontWeight: "bolder" , font:"Comic Sans MS" }}>
               He leido y aceptado los terminos y condiciones:
             </h6>
             <input

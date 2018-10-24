@@ -7,7 +7,7 @@ class SignUp extends Component {
     return (
       <React.Fragment>
         <center>
-          <table style={{ width: "100%", background: "Gold" }}>
+          <table style={{ width: "100%", background: "#0000" }}>
             <tr>
               <th>
                 <SignUpDescripcion />

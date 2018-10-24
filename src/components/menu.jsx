@@ -17,7 +17,7 @@ class Menu extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{ background: "Gold" }}>
+        <div style={{ background: "#97C5FF" }}>
           <SeleccionDeModalidadesDeBusqueda
             ref={this.child}
             available={this.state.available}

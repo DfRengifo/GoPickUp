@@ -6,7 +6,7 @@ class Despedida extends Component {
       <React.Fragment>
         <div style={{ height: "350px", background: "Gold" }}>
           <center>
-            <h1 style={{ color: "Red" }}>¡¡¡GRACIAS POR SU PLATA DUDE!!!</h1>
+            <h1 style={{ color: "#639CFF" }}>Gracias por preferir GoPickUp, vuelva pronto</h1>
             <br />
             <br />
             <br />

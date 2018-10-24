@@ -15,7 +15,7 @@ class OlvidoLaContraseñaForm extends Component {
     return (
       <center>
         <form id="form">
-          <h2>¿¿¿No recuerdas tu contraseña???</h2>
+          <h2>¿No recuerdas tu contraseña?</h2>
           <br />
           <br />
           <label style={{ fontsize: 20, fontweight: "bold" }}>

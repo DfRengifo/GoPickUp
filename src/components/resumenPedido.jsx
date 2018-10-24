@@ -2,16 +2,16 @@ import React, { Component } from "react";
 
 class ResumenPedido extends Component {
   state = {
-    cliente: "Pablo El Cumpa",
+    cliente: "Juan Pablo",
     costoTotal: 500,
     horaCreacion: "00:00",
-    horaRecogida: "21:59",
+    horaRecogida: "19:10",
     socio: "industriCarrefurIsis",
     productos: [
-      { nombre: "hamburguesa roger", id: 10001 },
-      { nombre: "hamburguesa roger", id: 10002 },
+      { nombre: "Hamburguesa ", id: 10001 },
+      { nombre: "hamburguesa ", id: 10002 },
       { nombre: "pizza", id: 10003 },
-      { nombre: "boleo", id: 10004 },
+      { nombre: "Bebida", id: 10004 },
       { nombre: "servicio", id: 10005 }
     ]
   };

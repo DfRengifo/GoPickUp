@@ -9,7 +9,7 @@ class Pedido extends Component {
     return (
       <React.Fragment>
         <center>
-          <h1 style={{ color: "red" }}>¡¡¡Gracias por tu pedido con:</h1>
+          <h1 style={{ color: "#0000" }}>¡Gracias por tu pedido con:</h1>
         </center>
         <table>
           <tbody>

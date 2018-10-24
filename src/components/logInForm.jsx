@@ -17,7 +17,7 @@ class LogInForm extends Component {
       <React.Fragment>
         <center>
           <form id="form">
-            <h2>¡Inicia Sesion!</h2>
+            <h2>Inicia de Sesion</h2>
             <label style={{ fontsize: 20, fontweight: "bold" }}>
               Identificacion :
               <input

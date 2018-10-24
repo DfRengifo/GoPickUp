@@ -32,40 +32,34 @@ class DecoracionCheckOut extends Component {
               <ul>
                 <li>
                   <p align="right">
-                    GoPickUp no se hace responsable <br />
-                    de literalmente nada <br />
-                    deal with it.
+                  Nuestra Compañía se exime de toda responsabilidad en <br />
+                  caso de que los usuarios utilicen los servicios sin consentir <br />
+                  los términos y condiciones del sitio web o aplicación móvil, <br />
+                  y se reserva la facultad de tomar todas las medidas legales <br />
+                  pertinentes en estos casos.
                   </p>
                 </li>
                 <li>
                   <p align="right">
-                    Ocacionalmente se le cobrara el <br />
-                    triple, si nos demanda le damos <br />
-                    piso.{" "}
+                  "Usted", “consumidor”, "usuario", “cliente” y "su" Hace referencia <br />
+                  a todas las personas que accedan a nuestro sitio web o aplicación <br />
+                  móvil y realizan órdenes de bienes o servicios a través de estos <br />
+                  canales o vía telefónica.
                   </p>
                 </li>
                 <li>
                   <p align="right">
-                    No se que mas poner aca maaain <br />
-                    ayuda con estachanda, ojalatodo <br />
-                    sirva bien. ya estoy muuuy fuckig <br />
-                    tostado.
-                  </p>
-                </li>
-                <li>
-                  <p align="right">
-                    Si no sabe bolear es un fucking <br />
-                    douchebag merece la muerte insta <br />
-                    asdf asdf what the fuuuck <br />
-                    halp
+                  "Bienes", “productos” o “pedido”,  hacen referencia a <br />
+                  los bienes que pueden llegar a ser ofrecidos a través <br />
+                  de nuestra plataforma día a día."Bienes", “productos” o<br />
+                   “pedido”,  hacen referencia a los bienes que pueden llegar <br />
+                   a ser ofrecidos a través de nuestra plataforma día a día.<br />
                   </p>
                 </li>
                 <li>
                   <p align="right">
                     Al hacer click en 'comprar' acepta <br />
-                    los terminos aqui descritos, la <br />
-                    incapacidad de leer no afecta las <br />
-                    obligaciones legales relacionadad. <br />
+                    los terminos aqui descritos.
                   </p>
                 </li>
               </ul>

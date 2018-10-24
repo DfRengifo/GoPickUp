@@ -10,7 +10,7 @@ class Producto extends Component {
   };
 
   estiloDH = {
-    border: "7px solid #db0404",
+    border: "7px solid #639CFF",
     padding: "8px",
     width: "100%"
   };
@@ -39,8 +39,10 @@ class Producto extends Component {
             <th
               style={{
                 width: "120px",
-                border: "3px solid #db0404",
-                padding: "10px"
+                border: "3px solid #639CFF",
+                padding: "10px",
+                width :"390px",
+                height : "120px"
               }}
             >
               <center>
@@ -48,14 +50,14 @@ class Producto extends Component {
                   src={this.props.imagenURL}
                   alt={this.state.id}
                   id={this.state.id}
-                  width="100"
-                  height="100"
+                  width="100%"
+                  height="100%"
                 />
               </center>
             </th>
             <th
               style={{
-                border: "3px solid #db0404",
+                border: "3px solid #639CFF",
                 padding: "10px"
               }}
             >
@@ -64,7 +66,7 @@ class Producto extends Component {
             <th
               style={{
                 width: "100px",
-                border: "3px solid #db0404",
+                border: "3px solid #639CFF",
                 padding: "10px"
               }}
             >
@@ -73,7 +75,7 @@ class Producto extends Component {
             <th
               style={{
                 width: "100px",
-                border: "3px solid #db0404",
+                border: "3px solid #639CFF",
                 padding: "10px"
               }}
             >
@@ -82,7 +84,7 @@ class Producto extends Component {
             <th
               style={{
                 width: "100px",
-                border: "3px solid #db0404",
+                border: "3px solid #639CFF",
                 padding: "10px"
               }}
             >
@@ -91,7 +93,7 @@ class Producto extends Component {
             <th
               style={{
                 width: "100px",
-                border: "3px solid #db0404",
+                border: "3px solid #639CFF",
                 padding: "10px"
               }}
             >

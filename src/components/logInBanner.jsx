@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class LogInBanner extends Component {
   render() {
     return (
-      <div className="LogInBanner" style={{ background: "#c0e4f9" }}>
+      <div className="LogInBanner" style={{ background: "#639CFF" }}>
         <center>
           <img
             //TODO PARTE CENTRO

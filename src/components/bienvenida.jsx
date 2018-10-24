@@ -4,10 +4,10 @@ class Bienvenida extends Component {
   render() {
     return (
       <React.Fragment>
-        <div style={{ height: "350px", background: "Gold" }}>
+        <div style={{ height: "350px", background: "#66E8DB" }}>
           <center>
             <h1 style={{ color: "Red" }}>
-              ¡¡¡GRACIAS POR CREAR SU CUENTA CON NOSOTROS!!!
+              Gracias, ahora eres parte de GoPickUp
             </h1>
             <br />
             <br />

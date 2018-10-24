@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+html{
+  font-family: 'Open Sans Condensed', sans-serif!important;
+}
 .App {
   text-align: center;
 }
@@ -20,6 +24,11 @@
 .App-link {
   color: #61dafb;
 }
+
+h2{
+  color: #75FF84!important;
+}
+
 
 @keyframes App-logo-spin {
   from {

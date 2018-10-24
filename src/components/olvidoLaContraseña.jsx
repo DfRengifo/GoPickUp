@@ -4,7 +4,7 @@ import OlvidoLaContraseñaForm from "./olvidoLaContraseñaForm";
 class OlvidoLaContraseña extends Component {
   render() {
     return (
-      <div style={{ background: "Gold" }}>
+      <div style={{ background: "#75FF84" }}>
         <table style={{ width: "100%" }}>
           <tbody>
             <tr>

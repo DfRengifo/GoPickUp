@@ -8,17 +8,17 @@ class LogIn extends Component {
     return (
       <React.Fragment>
         <center>
-          <table style={{ width: "100%", background: "#c0e4f9" }}>
+          <table style={{ width: "100%", background: "#639CFF" }}>
             <tbody>
               <tr>
                 <th>
-                  <LogInDescripcion />
+                  <LogInForm />
                 </th>
                 <td>
-                  <LogInBanner />
+                  
                 </td>
                 <td>
-                  <LogInForm />
+                  
                 </td>
               </tr>
             </tbody>
@@ -28,5 +28,6 @@ class LogIn extends Component {
     );
   }
 }
-
+//<LogInDescripcion />
+//<LogInBanner />
 export default LogIn;
